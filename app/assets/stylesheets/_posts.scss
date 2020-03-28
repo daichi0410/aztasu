@@ -294,16 +294,15 @@ body{
   justify-content: space-between;
   &__box{
     height: 100%;
-    width: 600px;
+    width: 700px;
     display: flex;
     justify-content: left;
   &__left1{
     height: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 10px;
-    width: 80px;
+    width: 90px;
     text-align: center;
-    padding: 10px;
     font-size: 11px;
     color: white;
     border-right: 1px solid lightgray;
@@ -314,11 +313,10 @@ body{
   &__left2{
     color: white;
     height: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 10px;
     width: 120px;
     text-align: center;
-    padding: 10px;
     font-size: 11px;
   }
 }
