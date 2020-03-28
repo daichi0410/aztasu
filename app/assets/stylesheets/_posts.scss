@@ -52,7 +52,7 @@ body{
   box-shadow: 0 25px 19px -18px lightgray inset;
   width: 100%;
   margin: 0 auto;
-  height: 1152px;
+  height: 1100px;
   display: flex;
   justify-content: center;
   padding-top: 50px;
@@ -142,6 +142,11 @@ body{
           width: 248px;
         }
       }
+      &__a:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+        background-color:rgba(255,255,255,0.8);
+      }
     }
     &__box2{
       display: flex;
@@ -166,6 +171,11 @@ body{
           font-size: 12px;
           width: 248px;
         }
+      }
+      &__a:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+        background-color:rgba(255,255,255,0.8);
       }
     }
   }
@@ -195,6 +205,18 @@ body{
         top: 10px;
         right: 0px;
       }
+      &__img:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+        background-color:rgba(255,255,255,0.8);
+      }
+    }
+    &__photo{
+    }
+    &__photo:hover{
+      opacity: 0.5;
+      transition: 0.5s;
+      background-color:rgba(255,255,255,0.8);
     }
   }
 }
@@ -217,9 +239,27 @@ body{
       font-size: 11px;
       margin-top: 30px;
     }
+    &__photo{
+      display: flex;
+      justify-content: space-evenly;
     &__img1{
       margin-top: 30px;
     }
+    &__img1:hover{
+      opacity: 0.5;
+      transition: 0.5s;
+      background-color:rgba(255,255,255,0.8);
+    }
+  }
+  &__photo2{
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  &__photo2:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    background-color:rgba(255,255,255,0.8);
+  }
     &__box{
       background-color: white;
       width: 334px;
@@ -228,6 +268,11 @@ body{
       position: relative;
       margin-bottom: 10px;
       &__img{
+      }
+      &__img:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+        background-color:rgba(255,255,255,0.8);
       }
       &__text{
         position: absolute;
@@ -263,6 +308,9 @@ body{
     color: white;
     border-right: 1px solid lightgray;
   }
+  &__left1-btn{
+    color: white;
+  }
   &__left2{
     color: white;
     height: 10px;
@@ -287,4 +335,13 @@ body{
     right: 190px;
   }
 }
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+a:hover{
+  color: lightskyblue;
+
 }

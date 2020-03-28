@@ -4,25 +4,30 @@
       =image_tag("aztasu-logo.png")
     .header__box__menu
       .header__box__menu__works
-        HOME
+        =link_to "#" ,class:"btn" do
+          HOME
       .header__box__menu__works
-        事業紹介
+        =link_to "#" ,class:"btn" do
+          事業紹介
       .header__box__menu__works
-        制作までの流れ
+        =link_to "#" ,class:"btn" do
+          制作までの流れ
       .header__box__menu__works
-        会社概要
+        =link_to "#" ,class:"btn" do
+          会社概要
       .header__box__menu__works
-        お問い合わせ
+        =link_to "#" ,class:"btn" do
+          お問い合わせ
 
 .top-content
   =image_tag("aztasu-top.png")
   .top-content__mid
     .top-content__mid__webdesign
-      =image_tag("index-img001.png")
+      =link_to image_tag("index-img001.png"),image_url("https://aztasu.co.jp/business-web/")
     .top-content__mid__display
-      =image_tag("index-img002.png")
+      =link_to image_tag("index-img002.png"),image_url("https://aztasu.co.jp/business-display/")
     .top-content__mid__service
-      =image_tag("index-img003.png")
+      =link_to image_tag("index-img003.png"),image_url("https://aztasu.co.jp/business-writing/")
 
 .btm-content
   .btm-content__left
@@ -30,34 +35,39 @@
       .btm-content__left__news__left
         NEWS
       .btm-content__left__news__right
-        過去のお知らせ一覧
+        =link_to "#",class:"btn" do
+          過去のお知らせ一覧
     .btm-content__left__menu
       .btm-content__left__menu__left
         2018/5/13
       .btm-content__left__menu__right
-        制作実績追加のご案内：税理士グループ「しんり」
+        =link_to "#",class:"btn" do
+          制作実績追加のご案内：税理士グループ「しんり」
 
     .btm-content__left__menu
       .btm-content__left__menu__left
         2018/4/25
       .btm-content__left__menu__right
-        【IT導入補助金】申請ITツールのご案内
+        =link_to "#",class:"btn" do
+          【IT導入補助金】申請ITツールのご案内
 
     .btm-content__left__menu
       .btm-content__left__menu__left
         2018/2/19
       .btm-content__left__menu__right
-        制作実績追加のご案内：アルコール パラダイス
+        =link_to "#",class:"btn" do
+          制作実績追加のご案内：アルコール パラダイス
 
     .btm-content__left__works
       .btm-content__left__works__left
         制作実績
       .btm-content__left__works__right
-        制作実績一覧を見る
+        =link_to "#",class:"btn" do
+          制作実績一覧を見る
 
     .btm-content__left__box1
       .btm-content__left__box1__a
-        =image_tag("shinri.png")
+        =link_to image_tag("shinri.png"),image_url("https://aztasu.co.jp/product/work-shinri-zei/")
         .btm-content__left__box1__a__text1
           税理士グループ「しんり」 様
         .btm-content__left__box1__a__text2
@@ -120,21 +130,26 @@
       .btm-content__right__title__name
         制作実績
     .btm-content__right__menu
-      REZAEV[リザエヴ]様
-      .btm-content__right__menu__img
-        =image_tag("mini2.png")
+      =link_to "https://aztasu.co.jp/product/work-rezaev/" ,class:"btn" do
+        REZAEV[リザエヴ]様
+        .btm-content__right__menu__img
+          =link_to image_tag("mini2.png"),image_url("https://aztasu.co.jp/product/work-rezaev/")
     .btm-content__right__menu
-      アルコールパラダイス
-      .btm-content__right__menu__img
-        =image_tag("mini1.png")
+      =link_to "https://aztasu.co.jp/product/work-alc-paradise/",class:"btn" do
+        アルコールパラダイス
+        .btm-content__right__menu__img
+          =link_to image_tag("mini1.png"),image_url("https://aztasu.co.jp/product/work-alc-paradise/")
     .btm-content__right__menu
-      太陽のドレッシング様
-      .btm-content__right__menu__img
-        =image_tag("mini3.png")
+      =link_to "https://aztasu.co.jp/product/work-taiyo-dressing/",class:"btn" do
+        太陽のドレッシング様
+        .btm-content__right__menu__img
+          =link_to image_tag("mini3.png"),image_url("https://aztasu.co.jp/product/work-taiyo-dressing/")
     .btm-content__right__photo
-      =image_tag("mini4.png")
-      =image_tag("mini5.png")
-      =image_tag("mini6.png")
+      =link_to image_tag("mini4.png"),image_url("https://sparkling-garden.net/")
+    .btm-content__right__photo
+      =link_to image_tag("mini5.png"),image_url("http://taiyo-dressing.com/")
+    .btm-content__right__photo
+      =link_to image_tag("mini6.png"),image_url("https://rezaev.jp/")
 
 .explain
   .explain__about
@@ -145,46 +160,57 @@
       プレゼントしています。
   .explain__about
     PICK UP
-    .explain__about__img1
-      =image_tag("mini1.png")
-      =image_tag("mini2.png")
-      =image_tag("mini3.png")
-      =image_tag("mini7.png")
-      =image_tag("mini8.png")
+    .explain__about__photo
+      .explain__about__photo__img1
+        =link_to image_tag("mini1.png"),image_url("https://aztasu.co.jp/product/work-alc-paradise/")
+      .explain__about__photo__img1
+        =link_to image_tag("mini2.png"),image_url("https://aztasu.co.jp/product/work-rezaev/")
+      .explain__about__photo__img1
+        =link_to image_tag("mini3.png"),image_url("https://aztasu.co.jp/product/work-taiyo-dressing/")
+      .explain__about__photo__img1
+        =link_to image_tag("mini7.png"),image_url('https://aztasu.co.jp/product/work-alc-paradise/')
+    .explain__about__photo2
+      =link_to image_tag("mini8.png"),image_url("https://aztasu.co.jp/product/work-shinri-zei/")
   .explain__about
     制作実績
     .explain__about__box
       .explain__about__box__img
-        =image_tag("mini8.png")
+        =link_to image_tag("mini8.png"),image_url("https://aztasu.co.jp/product/work-shinri-zei/")
       .explain__about__box__text
         税理士グループ「しんり」 様
 
     .explain__about__box
       .explain__about__box__img
-        =image_tag("mini7.png")
+        =link_to image_tag("mini7.png"),image_url('https://aztasu.co.jp/product/work-alc-paradise/')
       .explain__about__box__text  
         アルコール パラダイス｜お酒を愛する人へ向けたお酒情報サイト
 
     .explain__about__box
       .explain__about__box__img
-        =image_tag("mini3.png")
+        =link_to image_tag("mini3.png"),image_url("https://aztasu.co.jp/product/work-taiyo-dressing/")
       .explain__about__box__text
         太陽のドレッシング 様
 
 .footer
   .footer__box
     .footer__box__left1
-      HOME
+      =link_to "#" , class:"footer__box__left1-btn" do
+        HOME
     .footer__box__left1
-      事業紹介
+      =link_to "#" , class:"footer__box__left1-btn" do
+        事業紹介
     .footer__box__left1
-      制作までの流れ
+      =link_to "#" , class:"footer__box__left1-btn" do
+        制作までの流れ
     .footer__box__left1
-      会社概要
+      =link_to "#" , class:"footer__box__left1-btn" do
+        会社概要
     .footer__box__left1
-      お問い合わせ
+      =link_to "#" , class:"footer__box__left1-btn" do
+        お問い合わせ
     .footer__box__left2
-      プライバシーポリシー
+      =link_to "#" , class:"footer__box__left1-btn" do
+        プライバシーポリシー
   .footer__right
     Copyright ©  東京のホームページ制作・WEB制作会社 | 株式会社アズタス
     .footer__right__img
